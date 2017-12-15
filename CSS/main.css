@@ -28,12 +28,12 @@ html {
 }
 
 .cards img {
-  disaplay: block;
+  display: block;
   margin: 0 auto 1rem;
 }
 
 .cards strong {
-  disaply: block;
+  display: block;
   margin-bottom: 1rem;
 
   font-size: 1.125rem;
@@ -41,4 +41,31 @@ html {
 
 .cards dl {
   margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: inline-block;
+  width: 6em;
+  font-style: italic
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a {
+  display: inline-block;
+  padding; .5em .75em;
+  background-color:
+}
+
+.cards a:hover {
+  background-color: #333;
+  color: #fff;
 }
