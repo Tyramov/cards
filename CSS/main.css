@@ -46,7 +46,7 @@ html {
 .cards dt {
   display: inline-block;
   width: 6em;
-  font-style: italic
+  font-style: italic;
 }
 
 .cards dd {
@@ -61,8 +61,11 @@ html {
 
 .cards a {
   display: inline-block;
-  padding; .5em .75em;
-  background-color:
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
 }
 
 .cards a:hover {
